@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #DF678C;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.loveimg{
+    margin-top: 40px;
+    left: 500px;
+    width: 500px;
+    position: relative;
+    animation: 0.6s linear infinite;
+    cursor: pointer;
+}
+
+.status{
+    font-family: 'Merriweather', serif;
+    font-family: 'Shadows Into Light', cursive;
+    height: 750px;
+    position: '';
+    font-size: 80px;
+    color: #3D155F;
+}
+
+.status1{
+    font-family: 'Merriweather', serif;
+    font-family: 'Shadows Into Light', cursive;
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 450px;
+    font-size: 80px;
+    color: #3D155F;
+}
+
+@keyframes loveimg {
+    0% {
+        transform: rotate(0deg) scale(1.07);
+    }
+    80% {
+        transform: rotate(0deg) scale(1);
+    }
+    100% {
+        transform: rotate(0deg) scale(0.7);
+    }
+}
